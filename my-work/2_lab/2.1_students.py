@@ -24,8 +24,10 @@ with open(FULLPATH, 'r') as csvfile:
 # This is because quoting is non-numeric, which means that non-numeric values are treated as strings, numeric values are treated as floats 
 
 
-'''
+
 #  Modify the program to deal with the header line separately
+
+'''
 with open(FULLPATH, 'r') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
     line_number = 0
@@ -40,9 +42,10 @@ with open(FULLPATH, 'r') as csvfile:
 # Modify the program to calculate the average age, there are a few ways to solve this
 
 import statistics as stats
-
+'''
 with open(FULLPATH, 'r') as csvfile:
     # read csv file 
+    # https://docs.python.org/3/library/csv.html 
     reader = csv.reader(csvfile, delimiter=',', quoting=csv.QUOTE_NONNUMERIC)
     # avoid line 0, which is header 
     line_number = 0
@@ -54,11 +57,27 @@ with open(FULLPATH, 'r') as csvfile:
             # add age to list 
             age.append(line[1])
         line_number += 1
-    # calculate average age
+    # calculate average age with statistics module. see https://www.w3schools.com/python/ref_stat_mean.asp 
+    # round function https://www.w3schools.com/python/ref_func_round.asp
     average_age = round(stats.mean(age),2)
     print(f"The average age of students is {average_age}")
-
+'''
 
     # instead of using quoting, you can read the age as a number changing the type: age.append(int(line[1])) or float(line[1])
 
-    
+# read the table as Dict object with dict reader
+
+with open(FULLPATH, 'r') as csvfile:
+    # use csv.DictReader https://docs.python.org/3/library/csv.html#csv.DictReader
+    reader = csv.DictReader(csvfile, delimiter=',')
+    total = 0
+    line_number = 0
+    for line in reader: 
+        # access age key, and turn string into number. the same could be done with nonnumeric quoting 
+        # print(int(line['age']))
+        if line_number: 
+            total += int(line['age'])
+        line_number += 1
+    average_age = round(total/(line_number-1),2)
+    print(f"The average age of students is {average_age}")
+
