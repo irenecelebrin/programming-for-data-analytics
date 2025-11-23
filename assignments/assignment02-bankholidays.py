@@ -14,7 +14,7 @@ ni_holidays = holidays['northern-ireland']['events']
 # print out the date of each holiday in northern Ireland
 print(f"Bank holidays in Northern Ireland (2025-2028):\n")
 for holiday in ni_holidays:
-    print(f"Holiday: {holiday['title']}, Date: {holiday['date']}")
+    print(f"Holiday: {holiday['title']},\nDate: {holiday['date']}\n")
 print("\n")
 
 # EXTRA 
@@ -48,4 +48,4 @@ print(f"Bank holidays unique to Northern Ireland (2025-2028):\n")
 for unique_holiday in unique_ni_holidays:
     for holiday in ni_holidays:
         if unique_holiday == holiday['date']:
-            print(f"Holiday: {holiday['title']}, Date: {unique_holiday}")
+            print(f"Holiday: {holiday['title']},\nDate: {unique_holiday}\n")
