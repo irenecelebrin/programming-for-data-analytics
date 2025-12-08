@@ -21,11 +21,11 @@ The program uses the python package *Requests* to get and read json data from a 
 
 #### Task 3: Pie (or email domains)
 
-The program uses *Pandas* to read and manipulate data in tabular format. The, it uses Matplotlib to plot the data.   
+The program uses *Pandas* to read and manipulate data in tabular format. The, it uses *Matplotlib* to plot the data.   
 
 #### Task 5: Population 
 
-The program uses more advanced *Pandas* functionalities to manipulate data, create pivot tables dataframes. It explores the use of *Numpy* to perform mathematical operations and Matplotlib to plot data. 
+The program uses more advanced *Pandas* functionalities to manipulate data, create pivot tables dataframes. It explores the use of *Numpy* to perform mathematical operations and *Matplotlib* to plot data. 
 
 #### Task 6: Weather 
 
