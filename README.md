@@ -35,7 +35,10 @@ In addition to data manipulation, the program explores new *Pandas* methods like
 
 This folder includes the final project for the course. 
 
+Please refer to the [README.md](README.md) inside the folder "Project". 
+
 
 ### My work 
 
 This folder includes relevant notes and laboratories from the course. 
+
