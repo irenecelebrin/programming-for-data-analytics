@@ -3,3 +3,4 @@ numpy
 matplotib 
 seaborn
 requests
+openpyxl # to use pd.read_excel
