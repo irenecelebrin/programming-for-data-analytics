@@ -8,9 +8,15 @@ What is the project about
 
 ## Getting started 
 
+Language: Python 3.12
+Dependencies: refer to requirements.txt in the root node of the repository 
+
+
 Structure 
 
-Language and dependencies 
+
+
+
 
 ## Comment 
 
