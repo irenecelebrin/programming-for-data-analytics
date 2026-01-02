@@ -8,11 +8,19 @@ What is the project about
 
 ## Getting started 
 
+### Language and dependencies
+
 Language: Python 3.12
-Dependencies: refer to requirements.txt in the root node of the repository 
+Dependencies: refer to requirements.txt in the root node of the repository. Run the command: 
+
+    pip install requirements.txt
+
+Note: if issues arise when running the notebook, re-install geopandas making sure that all its dependencies are also installed. Use with the command: 
+
+    pip install 'geopandas[all]'
 
 
-Structure 
+### Structure 
 
 
 
@@ -43,5 +51,9 @@ seaborn line plot https://seaborn.pydata.org/generated/seaborn.lineplot.html
 suptitle # https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.suptitle.html
 linestyle: https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.plot.html 
 
-
-
+Maps: 
+geopandas: https://geopandas.org/en/stable/getting_started/install.html
+map: https://github.com/jschleuss/mexican-states/tree/master?tab=License-1-ov-file
+map: https://data.humdata.org/dataset/cod-ab-mex 
+code example: https://nbviewer.org/github/pysal/inequality/blob/main/docs/user-guide/viz/pengram.ipynb
+getting started with geopandas: https://www.youtube.com/watch?v=aGPQXD-rLgw
