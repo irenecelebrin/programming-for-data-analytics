@@ -20,3 +20,5 @@ TO DO list
 
 - fix legends (spacing in terms) in scatter plot 
 
+- add sections saying that this is a folder in the repo but can be treated as an indepenednt repo, becuase it includes a readme, gitignore, requirements.txt
+
