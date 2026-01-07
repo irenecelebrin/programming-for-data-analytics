@@ -1,12 +1,12 @@
 TO DO list 
 
-- analysis of 3: Perception of insecurity by sex 
+- analysis of 3: Perception of insecurity by sex DONE 
 
 - README
 - references
 - save all plots to the folder: data/ plots 
 - add states names on geopandas 
-- recalculate men vs women on % instead of 100 000 
+- recalculate men vs women on % instead of 100 000 DONE 
 
 - calculate difference 2011 - 2015 to show that slopes make sense 
 - plot yucatan and mexico and fit lines 
