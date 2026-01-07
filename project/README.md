@@ -4,58 +4,77 @@ This folder includes the final project for the course "Programming for data anal
 
 ## Getting started 
 
-### Language and dependencies
+### Language and dependencies
 
 Language: Python 3.12
-Dependencies: refer to requirements.txt in the root node of the repository. Run the command: 
+
+Dependencies: The libraries required to run the code are listed in *requirements.txt*. To install all at the same time, run the command: 
 
     pip install requirements.txt
 
-Note: if issues arise when running the notebook, re-install geopandas making sure that all its dependencies are also installed. Use with the command: 
+To install individual packages, use the command: 
+
+    pip install *package name*
+
+Note: if issues arise when running the notebook, re-install geopandas making sure that all its dependencies are also installed. Use the command: 
 
     pip install 'geopandas[all]'
 
 
 ### Structure 
 
+[insert here image]
 
 ## About this project 
 
-1. Data import and data exploration
-2. Data clean-up
-3. Analysis: Perceived insecurity among men and women, by state and by municipality
-    3.1 Data preparation
-    3.2 Plots
-    3.3 Analysis
-    3.4 Statistics 
-4. Analysis: Perceived insecurity by state 
-    4.1 Data preparation
-    4.2 Perception of insecurity by people aged 18 years and over, by state
-        4.2.1 Statistics 
-        4.2.2 Plot
-        4.2.3 Analysis 
-    4.3 Trends in perceived insecurity (2011-2025)
-        4.3.1 Statistics
-        4.3.2 Plots 
-        4.3.3 Analysis 
-        4.3.4 Extra: showing polynomial coefficients
-    4.4 Perceived insecurity in 2025, by state 
-        4.4.1 Plot 
-5. Analysis: Reported crime in Mexico 
-    5.1 Data preparation
-    5.2 Plot
-    5.3 Analysis 
-6. Correlation between crime and perceived insecurity, 2011-2025
-7. Conclusion 
-8. Appendix: 
-    8.1 A map of Mexico with legend 
-    8.2 Line fitting (appendix to 4.3.2)
+### The project
 
+The project investigates the topic of perceived insecurity in the United States of Mexico. The dataset was sourced from INEGI, the [National Institute of Statistics and Geography of Mexico](https://en.www.inegi.org.mx/). 
 
+The goal of this project is to show how perceived insecurity has evolved in Mexico over the past 14 years (2011 to 2025). The research aims to answer the following questions:
 
+- How has the perception of public insecurity in Mexico changed over the past 15 years, by sex and by state?  
+- How does it look like, now?
+- How does it relate with the crime rate? 
 
+### Sections 
 
-## Comment 
+The sections of the project are detailled below: 
+
+**1. Data import and data exploration**
+
+Different ways to import the data are explored. Once imported, the data is explored and explained. 
+
+**2. Data clean-up**
+
+The data is cleaned up to avoid issues when performing manipulation, calculations or plotting the data. 
+
+**3. Perceived insecurity among men and women, by state and by municipality**
+
+The first part of the analysis investigates how perceived insecurity has evolved in the past 14 years. Two (four) variables are considered: sex and local dimension (state or municipality).  
+
+**4. Perceived insecurity by state**
+
+This section is the core of the analysis. It explores how perceived insecurity has evolved and looks like now, by state (Mexico is a federation of states). 
+
+- First, the states with highest and lowest rates of perceived insecurity are found. Then, the state with the higest variance is identified. 
+
+- Every state is analysed to find how perceived insecurity has evolved in each state over the past 14 years and classify the trends. 
+
+- A snapshot of perceived insecurity in 2025 is plotted on a map of Mexico 
+
+**5. Correlation between perceived insecurity and crime rates, 2011-2025**
+
+This final sections investigates correlations between perceived insecurity and crime rates (violent and non-violent) in Mexico in 2011-2025. 
+
+**6. Conclusion** 
+
+Findings of the analysis. 
+
+**7. Appendix** 
+
+Extra features include a map of Mexico and an example of line fitting to identify past trends in perceived insecurity. 
+
 
 ## References 
 
@@ -68,7 +87,6 @@ unique values https://pandas.pydata.org/docs/reference/api/pandas.Series.unique.
 
 
 Plots: 
-
 https://matplotlib.org/stable/gallery/color/color_by_yvalue.html 
 https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.xticks.html
 https://matplotlib.org/stable/gallery/color/named_colors.html
