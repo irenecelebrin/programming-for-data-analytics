@@ -1,24 +1,22 @@
 TO DO list 
 
-- analysis of 3: Perception of insecurity by sex DONE 
+- ~~analysis of 3: Perception of insecurity by sex~~ DONE 
 
 - README
 - references
 - save all plots to the folder: data/ plots 
 - add states names on geopandas 
-- recalculate men vs women on % instead of 100 000 DONE 
+- ~~recalculate men vs women on % instead of 100 000~~ 
 
-- calculate difference 2011 - 2015 to show that slopes make sense 
+- ~~calculate difference 2011 - 2015 to show that slopes make sense~~  DONE 
 - plot yucatan and mexico and fit lines 
-
-
-
 
 - calculate highest variance for perceived insecurity about the state 
 
-- add pie chart of improving, stable, worsening states. DONE 
+- ~~add pie chart of improving, stable, worsening states~~. DONE 
 
 - fix legends (spacing in terms) in scatter plot 
 
 - add sections saying that this is a folder in the repo but can be treated as an indepenednt repo, becuase it includes a readme, gitignore, requirements.txt
 
+- explain why there is a mix of Seaborn and matplotlib 
