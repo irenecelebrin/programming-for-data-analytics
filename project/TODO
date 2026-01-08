@@ -4,7 +4,7 @@ TO DO list
 
 - README
 - references
-- save all plots to the folder: data/ plots 
+- ~~save all plots to the folder: data/ plots~~ 
 - add states names on geopandas 
 - ~~recalculate men vs women on % instead of 100 000~~ 
 
@@ -15,8 +15,12 @@ TO DO list
 
 - ~~add pie chart of improving, stable, worsening states~~. DONE 
 
-- fix legends (spacing in terms) in scatter plot 
+- ~~fix legends (spacing in terms) in scatter plot~~ 
 
-- add sections saying that this is a folder in the repo but can be treated as an indepenednt repo, becuase it includes a readme, gitignore, requirements.txt
+- ~~add sections saying that this is a folder in the repo but can be treated as an indepenednt repo, becuase it includes a readme, gitignore, requirements.txt~~
 
-- explain why there is a mix of Seaborn and matplotlib 
+- ~~explain why there is a mix of Seaborn and matplotlib~~ 
+
+- conclusion
+
+- add correlation coefficients in appendix? 
