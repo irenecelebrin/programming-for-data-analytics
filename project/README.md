@@ -4,7 +4,7 @@ This folder includes the final project for the course "Programming for data anal
 
 ## Getting started 
 
-This projects is a child of another repository, but once downloaded it can be considered as an independent repository. It includes all the necessary components of a repository, including a README, a .gitignore, and a requirements file. 
+The project is included within a broader repository. However, once the repository is downloaded, the folder 'project' can be considered as an independent repository. It includes all the necessary components of a repository, including a README, a .gitignore, and a requirements.txt. 
 
 
 ### Language and dependencies
@@ -26,7 +26,7 @@ Note: if issues arise when running the notebook, re-install geopandas making sur
 
 ### Structure 
 
-[insert here image]
+<img src='./data/misc/repo.png' width='35%' />
 
 ## About this project 
 
