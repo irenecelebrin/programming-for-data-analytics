@@ -28,6 +28,8 @@ Note: if issues arise when running the notebook, re-install geopandas making sur
 
 <img src='./data/misc/repo.png' width='35%' />
 
+The code is in the notebook *project.ipynb*, while the folder *data* includes the dataset, the map files, and the plots. 
+
 ## About this project 
 
 ### The project
