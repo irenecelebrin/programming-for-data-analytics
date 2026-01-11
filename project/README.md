@@ -40,7 +40,7 @@ The goal of this project is to show how perceived insecurity has evolved in Mexi
 
 - How has the perception of public insecurity in Mexico changed over the past 15 years, by sex and by state?  
 - How does it look like, now?
-- How does it relate with the crime rate? 
+- How does it relate with reported offense rates? 
 
 ### Sections 
 
@@ -68,9 +68,9 @@ This section is the core of the analysis. It explores how perceived insecurity h
 
 - A snapshot of perceived insecurity in 2025 is plotted on a map of Mexico. 
 
-**5. Correlation between perceived insecurity and crime rates, 2011-2025**
+**5. Correlation between perceived insecurity and offense rates, 2011-2025**
 
-This final section investigates correlations between perceived insecurity and crime rates (violent and non-violent) in Mexico in 2011-2025. 
+This final section investigates correlations between perceived insecurity and offense rates (violent and non-violent) in Mexico in 2011-2025. 
 
 **6. Conclusion** 
 
