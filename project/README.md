@@ -4,7 +4,7 @@ This folder includes the final project for the course "Programming for data anal
 
 ## Getting started 
 
-The project is included within a broader repository. However, once the repository is downloaded, the folder 'project' can be considered as an independent repository. It includes all the necessary components of a repository, including a README, a .gitignore, and a requirements.txt. 
+The project is included within a broader repository. However, once the repository is downloaded, the folder 'project' can be considered as an independent repository. It includes all the necessary components, including a README, a .gitignore, and a requirements.txt. 
 
 
 ### Language and dependencies
@@ -62,15 +62,15 @@ The first part of the analysis investigates how perceived insecurity has evolved
 
 This section is the core of the analysis. It explores how perceived insecurity has evolved and looks like now, by state (Mexico is a federation of states). 
 
-- First, the states with highest and lowest rates of perceived insecurity are found. Then, the state with the higest variance is identified. 
+- First, the states with highest and lowest rates of perceived insecurity are found. Then, the state with the higest variation over the past 15 years is identified. 
 
-- Every state is analysed to find how perceived insecurity has evolved in each state over the past 15 years and classify the trends. 
+- Every state is analysed to find how perceived insecurity has evolved over the past 15 years and classify the trends. 
 
-- A snapshot of perceived insecurity in 2025 is plotted on a map of Mexico 
+- A snapshot of perceived insecurity in 2025 is plotted on a map of Mexico. 
 
 **5. Correlation between perceived insecurity and crime rates, 2011-2025**
 
-This final sections investigates correlations between perceived insecurity and crime rates (violent and non-violent) in Mexico in 2011-2025. 
+This final section investigates correlations between perceived insecurity and crime rates (violent and non-violent) in Mexico in 2011-2025. 
 
 **6. Conclusion** 
 
@@ -78,5 +78,5 @@ Findings of the analysis.
 
 **7. Appendix** 
 
-Extra features include a map of Mexico and an example of line fitting to identify past trends in perceived insecurity. 
+Extra features include a map of Mexico and an example of line fitting to identify trends in perceived insecurity. 
 
