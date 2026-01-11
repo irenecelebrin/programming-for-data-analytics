@@ -19,7 +19,7 @@ To install individual packages, use the command:
 
     pip install *package name*
 
-Note: if issues arise when running the notebook, re-install geopandas making sure that all its dependencies are also installed. Use the command: 
+Note: if issues with geopandas arise when running the notebook, re-install geopandas making sure that all its dependencies are also installed. Use the command: 
 
     pip install 'geopandas[all]'
 
